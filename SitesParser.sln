@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitesParser", "SitesParser\SitesParser.csproj", "{461FA474-C3FC-4A04-924C-6333D8B9C2B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitesParser.BL", "SitesParser.BL\SitesParser.BL.csproj", "{5D8D226C-C98C-4B3B-9FD5-433A9B610231}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{461FA474-C3FC-4A04-924C-6333D8B9C2B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461FA474-C3FC-4A04-924C-6333D8B9C2B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461FA474-C3FC-4A04-924C-6333D8B9C2B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461FA474-C3FC-4A04-924C-6333D8B9C2B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8D226C-C98C-4B3B-9FD5-433A9B610231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8D226C-C98C-4B3B-9FD5-433A9B610231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8D226C-C98C-4B3B-9FD5-433A9B610231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8D226C-C98C-4B3B-9FD5-433A9B610231}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4136C0A1-5DB6-4DA7-8340-2113DD4AAFE1}
+	EndGlobalSection
+EndGlobal

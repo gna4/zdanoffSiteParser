@@ -1,0 +1,32 @@
+﻿<Window x:Class="SitesParser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SitesParser"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" MinWidth="800" MinHeight="450">
+    <Grid MinWidth="800" MinHeight="420" Margin="0,0,-7.4,-10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Выберите сайт:" HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top" Height="26" Width="93"/>
+        <TextBox x:Name="tBoxLog" Margin="10,65,30.8,99" TextWrapping="Wrap" IsUndoEnabled="False" Panel.ZIndex="1" ScrollViewer.CanContentScroll="True" UseLayoutRounding="True" VerticalContentAlignment="Stretch" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" IsEnabled="False"/>
+        <Button x:Name="btnStartSearch" Content="Найти магазины" HorizontalAlignment="Right" Margin="0,16,30.8,0" VerticalAlignment="Top" Width="130" HorizontalContentAlignment="Center" Height="30"/>
+        <Button x:Name="btnSaveResult" Content="Сохранить результат" HorizontalAlignment="Right" Margin="0,0,30.8,56" VerticalAlignment="Bottom" Width="130" Height="30"/>
+        <StatusBar Height="30" Margin="0,0,9.8,12" VerticalAlignment="Bottom" VerticalContentAlignment="Bottom" HorizontalContentAlignment="Stretch">
+            <Label Content="Найдено магазинов:" Width="123"/>
+            <Label x:Name="lblShopsCount" Content="0" RenderTransformOrigin="-0.037,0.433"/>
+        </StatusBar>
+        <ProgressBar x:Name="prgProgresBar" HorizontalAlignment="Right" Height="32" Margin="0,0,30.8,10" VerticalAlignment="Bottom" Width="431" VerticalContentAlignment="Bottom" HorizontalContentAlignment="Right"/>
+        <ComboBox x:Name="cboxSitesSupport" Margin="108,16,187.8,0" VerticalAlignment="Top" Height="30" HorizontalContentAlignment="Stretch">
+            <ComboBoxItem Content="https://www.zolotoyvek.ua/ru/our-shops/" />
+            <ComboBoxItem Content="https://sribniyvik.ua/ru/nashi-magazinu/" />
+            <ComboBoxItem Content="https://zolotakraina.ua/nashi-magazinu/" />
+            <ComboBoxItem Content="https://sribnakraina.ua/nashi-magazinu/" />            
+            <ComboBoxItem Content="https://stolychnashop.com.ua/magaziny/" />
+        </ComboBox>
+
+    </Grid>
+</Window>
